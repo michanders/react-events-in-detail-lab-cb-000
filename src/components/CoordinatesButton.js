@@ -1,7 +1,10 @@
+
+import React from 'react';
+
 export default class CoordinatesButton extends React.Component {
 
   handleClick = (event) => {
-    console.log(event.type); // prints 'click'
+    console.log(event.type);
   }
 
   render() {
